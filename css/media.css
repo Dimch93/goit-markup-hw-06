@@ -1,4 +1,7 @@
 @media screen and (min-width: 428px) {
+  .mobile-social {
+    gap: 56px;
+  }
 }
 
 /* -----@media screen 768px-----  */
