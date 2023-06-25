@@ -1,4 +1,8 @@
 @media screen and (min-width: 428px) {
+  .footer-input {
+    width: 398px;
+  }
+
   .mobile-social {
     gap: 56px;
   }
@@ -58,7 +62,7 @@
     align-items: center;
     flex-direction: column;
     gap: 12px;
-    padding: 16px;
+    padding: 16px 0;
   }
 
   .address-list {
@@ -159,10 +163,15 @@
 
   .footer-container {
     justify-content: flex-start;
+    gap: 72px 24px;
     max-width: 584px;
   }
   .footer-section {
-    margin-right: 24px;
+    margin-bottom: 0;
+  }
+
+  .footer-social {
+    margin-bottom: 0;
   }
 
   .footer-social-text {
@@ -175,6 +184,10 @@
 
   .footer-form-text {
     text-align: start;
+  }
+
+  .footer-input {
+    width: 264px;
   }
 
   /* ----portfolio---- */
@@ -198,6 +211,10 @@
   .container {
     max-width: 1158px;
     padding: 0 15px;
+  }
+
+  .section-text {
+    font-weight: inherit;
   }
 
   .address {
@@ -279,14 +296,16 @@
   }
 
   .section-doing {
+    padding-bottom: 120px;
+  }
+
+  .doing-container {
     display: contents;
   }
 
   .doing {
     display: flex;
-    padding: 0 15px;
     gap: 24px;
-    padding-bottom: 120px;
   }
 
   .doing-list {
@@ -319,7 +338,7 @@
   }
 
   .footer-container {
-    /* padding-left: 156px; */
+    gap: 0;
   }
   .footer-section {
     margin-right: 120px;
